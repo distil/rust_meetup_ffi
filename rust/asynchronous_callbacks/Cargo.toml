@@ -1,0 +1,8 @@
+[package]
+name = "asynchronous_callbacks"
+version = "0.1.0"
+authors = ["Johan Gardell <johan.gardell@distilnetworks.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2.20"

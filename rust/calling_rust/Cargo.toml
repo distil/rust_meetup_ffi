@@ -1,0 +1,9 @@
+[package]
+name = "calling_rust"
+version = "0.1.0"
+authors = ["Johan Gardell <johan.gardell@distilnetworks.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
