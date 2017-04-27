@@ -1,0 +1,8 @@
+c/Makefile linguist-vendored
+Makefile linguist-vendored
+rust/asynchronous_callbacks/Makefile linguist-vendored
+rust/calling_c/Makefile linguist-vendored
+rust/calling_rust/Makefile linguist-vendored
+rust/Makefile linguist-vendored
+rust/memory_management/Makefile linguist-vendored
+rust/ownership/Makefile linguist-vendored
