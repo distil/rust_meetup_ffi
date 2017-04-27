@@ -22,13 +22,13 @@ bin/ownership: src/ownership.c
 	cc src/ownership.c -L../rust/ownership/target/debug/ -lownership -Wall -o bin/ownership
 
 lib/libasynchronous_callbacks.so: src/asynchronous_callbacks.cpp
-	c++ src/asynchronous_callbacks.cpp -std=c++11 -Wall -shared -o lib/libasynchronous_callbacks.so
+	c++ src/asynchronous_callbacks.cpp -fPIC -std=c++11 -Wall -shared -o lib/libasynchronous_callbacks.so
 
 run-calling_rust: bin/calling_rust
-	bin/calling_rust
+	LD_LIBRARY_PATH=../rust/calling_rust/target/debug bin/calling_rust
 
 run-ownership: bin/ownership
-	bin/ownership
+	LD_LIBRARY_PATH=../rust/ownership/target/debug bin/ownership
 
 clean-calling_c:
 	-rm lib/libcalling_c.so
