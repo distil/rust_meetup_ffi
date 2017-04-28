@@ -1,5 +1,5 @@
-# rust_meetup_ffi
-Code to the Rust FFI talk at the Stockholm Rust meetup
+# Rust FFI
+Code and presentation from the Rust FFI talk at the Stockholm Rust meetup.
 
 ## Supported OS
 * Mac OSX (Tested on: Sierra 10.12.4)
